@@ -5,6 +5,7 @@ Welcome to AdBack's documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Utility
+   :caption: Api
 
    api/utility
+   api/faq

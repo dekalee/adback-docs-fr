@@ -5,6 +5,8 @@ Here is a sample script for server to server API usage :
 
 .. code-block:: php
 
+    <?php
+
     /*
     CONNECT TO YOUR IN-MEMORY DATA STRUCTURE STORE LIKE REDIS
     */

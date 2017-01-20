@@ -52,7 +52,7 @@ Here is a sample script for server to server API usage :
             t=d.getElementsByTagName('script')[0];
             t.parentNode.insertBefore(s,t);
             })("https://$messageDomain/$messageScript.js?ref=", document);
-        EOS;
+    EOS;
     }
 
     /*

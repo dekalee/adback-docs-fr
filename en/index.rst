@@ -11,6 +11,7 @@ Welcome to AdBack's documentation
    api/faq
    api/exemple
    api/efficiency
+   api/documentation
 
 .. _Tag:
 

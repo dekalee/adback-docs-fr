@@ -19,7 +19,7 @@ Here is a sample script for server to server API usage :
     if ($cache->has('scriptElement')) {
         $scriptElement = $cache->hGetAll('scriptElement');
     } else {
-        $scriptElement = json_decode(file_get_contents('https://adback.co/api/script/your-site?
+        $scriptElement = json_decode(file_get_contents('https://adback.co/api/script/me?
         access_token=token'), true);
         foreach ($scriptElement as $key => $value) {
             $cache->hSet('scriptElement', $key, $value);
@@ -45,8 +45,8 @@ Here is a sample script for server to server API usage :
     */
     $messageScript = '';
     if (isset($scriptElement['custom_message_domain']) {
-        $messageDomain = $scriptElement['custom_message_domain'];
-        $messageScript = $scriptElement['custom_message_script'];
+        $messageDomain = $scriptElement['message_domain'];
+        $messageScript = $scriptElement['message_script'];
         $customMessageScript = <<<EOS
             (function (a,d){var s,t,u;s=d.createElement(‘script’);
             if(d.referrer){u=d.createElement('a');u.href=d.referrer;a=a+u.hostname;}

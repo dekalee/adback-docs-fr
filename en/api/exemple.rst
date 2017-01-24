@@ -44,7 +44,7 @@ Here is a sample script for server to server API usage :
     CREATE THE MESSAGE SCRIPT
     */
     $messageScript = '';
-    if (isset($scriptElement['custom_message_domain']) {
+    if (isset($scriptElement['message_domain']) {
         $messageDomain = $scriptElement['message_domain'];
         $messageScript = $scriptElement['message_script'];
         $customMessageScript = <<<EOS

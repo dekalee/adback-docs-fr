@@ -28,4 +28,4 @@ The bundle already provides a driver for ``Redis``. You could only specify your 
 If you want to use another local cache service, you could check `how to implement a new driver`_.
 
 .. _`Api Access`: https://www.adback.co/fr/admin/api/
-.. _how to implement a new driver: cache_storage
+.. _how to implement a new driver: cache_storage.html

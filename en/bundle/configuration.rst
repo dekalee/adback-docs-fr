@@ -5,6 +5,7 @@ Base parameters
 ---------------
 
 .. code-block:: yaml
+
     dekalee_adback_analytics:
         access_token: your-token
         cache_service: your.redis.service
@@ -23,7 +24,7 @@ Cache service
 
 To avoid any slow down of your application, the bundle uses some local cache to store the gathered informations.
 
-The bundle already provides a driver for `Redis`. You could only specify your redis service to make it work directly.
+The bundle already provides a driver for ``Redis``. You could only specify your redis service to make it work directly.
 If you want to use another local cache service, you could check `how to implement a new driver`_.
 
 .. _`Api Access`: https://www.adback.co/fr/admin/api/

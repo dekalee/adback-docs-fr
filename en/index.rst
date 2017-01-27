@@ -28,5 +28,6 @@ Welcome to AdBack's documentation
    :caption: Bundle
 
    bundle/installation
+   bundle/configuration
    bundle/usage
    bundle/cache_storage

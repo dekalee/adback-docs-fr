@@ -1,6 +1,6 @@
 Online Documentation
 ====================
-.. NOTE::
+
 In the examples, you should replace YOUR_TOKEN with your personal token.
 
 * You can access API documentation from:

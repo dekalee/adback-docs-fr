@@ -13,7 +13,7 @@ Here is a script for server to server API usage in bash :
     -a : output analytics script (JS output)
     -html : change the output method (html output)
 
-Crontab that update tag js every 6 hours :
+Crontab that update js tag every 6 hours :
 
 .. code-block:: bash
 

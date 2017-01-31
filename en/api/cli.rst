@@ -5,8 +5,9 @@ Here is a script for server to server API usage in bash :
 
 .. code-block:: bash
 
-    $ wget [url script]
-    Usage: ./adback-refresh-tags [token] [options]
+    $ wget https://raw.githubusercontent.com/dekalee/adback-bash-refresh/master/adback-refresh-tags
+    $ chmod +x adback-refresh-tags
+    $ ./adback-refresh-tags [token] [options]
 
     Options :
     -c : output custom message script (JS output)
@@ -17,4 +18,4 @@ Crontab that update js tag every 6 hours :
 
 .. code-block:: bash
 
-    $ 0 */6 * * * /usr/bin/bash [path to script] [token]  > [your js file]
+    $ 0 */6 * * * /usr/bin/bash [path to script] [token]  > [your output file]

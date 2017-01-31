@@ -10,6 +10,7 @@ Welcome to AdBack's documentation
    api/utility
    api/faq
    api/exemple
+   api/cli
    api/efficiency
    api/documentation
 

@@ -26,7 +26,7 @@ Welcome to AdBack's documentation
 
 .. toctree::
    :maxdepth: 2
-   :caption: Bundle
+   :caption: Bundle Symfony
 
    bundle/installation
    bundle/configuration

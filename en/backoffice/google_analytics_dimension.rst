@@ -20,3 +20,15 @@ Add a Google Analytics Dimension
 .. image:: img/ga_dimension.png
 
 4. Save by clicking on **Edit website**
+
+-----
+
+* Values are:
+
+0 - no adblock
+
+1 - adblock without whitelist
+
+2 - adblock with whitelist
+
+4 - corporate filtering

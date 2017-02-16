@@ -32,3 +32,11 @@ Welcome to AdBack's documentation
    bundle/configuration
    bundle/usage
    bundle/cache_storage
+
+.. _Backoffice:
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Back Office
+
+   backoffice/google_analytics_dimension

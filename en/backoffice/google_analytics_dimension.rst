@@ -1,16 +1,6 @@
 Add a Google Analytics Dimension
 ================================
 
-* On AdBack.co side:
-
-1. Go to https://www.adback.co/en/admin/config
-2. Click on **Edit website**
-3. Choose a dimension id
-
-.. image:: img/ga_dimension.png
-
-4. Save by clicking on **Edit website**
-
 * On Google Analytics side
 
 1. Choose **ADMIN** on the left side menu
@@ -19,3 +9,14 @@ Add a Google Analytics Dimension
 .. image:: img/ga_custom_definitions.png
 
 3. Add a dimension and choose the **Session** Scope
+4. Get the dimension id
+
+* On AdBack.co side:
+
+1. Go to https://www.adback.co/en/admin/config
+2. Click on **Edit website**
+3. Select the dimension id previously created
+
+.. image:: img/ga_dimension.png
+
+4. Save by clicking on **Edit website**

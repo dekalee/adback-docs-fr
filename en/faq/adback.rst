@@ -55,7 +55,8 @@ all the detailed statistics on the `AdBack dashboard`_.
 
 How to install the AdBack plugin on WordPress ?
 -----------------------------------------------
-1)  Download the plugin here_.
+
+1) Download the plugin here_.
 
 2) Connect to your WordPress interface in admin mode and go to the “Plugins” tab and “Add new”.
 Then click on “Upload Plugin” at the top of the page

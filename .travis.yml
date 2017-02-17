@@ -6,10 +6,8 @@ addons:
     - python-pip
 
 before_install:
-  - cd en
+  - cd fr
   - pip install --user sphinx sphinx-autobuild recommonmark
 
 script:
-  - make html 2>&1 | grep "ERROR:\|WARNING:" | exit `wc -l`
-  - cd ../fr
   - make html 2>&1 | grep "ERROR:\|WARNING:" | exit `wc -l`
